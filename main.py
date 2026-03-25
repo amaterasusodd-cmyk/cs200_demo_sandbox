@@ -1,10 +1,10 @@
 def func1():
     lst = []
     print('Enter numbers one at a time. Enter 0 to stop.')
-    x = int(input('num:'))
-    while x != 0:
-        lst.append(x)
-        x = int(input('num:'))
+    datain = int(input('num:'))
+    while datain != 0:
+        lst.append(datain)
+        datain = int(input('num:'))
     return lst
 
 def func2(data):
@@ -13,6 +13,7 @@ def func2(data):
 
     choice = ''
     while True:
+       
         choice = input('Select an option. 1-sum  2-min  3-max  4-quit')
         if choice == '1':
             print('The sum is',sum(data))
