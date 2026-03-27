@@ -11,7 +11,7 @@ def func1():
 def func2(data):
     print('Here is the data:')
     print(data)
-
+    print("This is the right answer")
     choice = ''
     while True:
        
