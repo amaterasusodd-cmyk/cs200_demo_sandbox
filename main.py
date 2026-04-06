@@ -2,6 +2,10 @@ def foo(x, y):
     return x*y+1
 
 
+def bar(x):
+    return 5*x
+
+
 def func1():
     lst = []
     print('Enter numbers one at a time. Enter 0 to stop.')
